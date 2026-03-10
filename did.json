@@ -3,35 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
+  "id": "did:web:jonanderacuratio.github.io:jonandergaiax",
   "verificationMethod": [
     {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "gzUctwImnfGSjBvfTXJZHNKrNtiESjIGsvsvp1ZHqgI",
-        "y": "FjXuvJy3kCNDtZysvhnRhiiGHbTQMUMyjCCSN6Eg8Yo",
-        "kid": "keys-1"
-      }
-    },
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "1QlVrglX2WBu2r_kBeSKMM98pUSiCx5PNvEgxWkulxc",
-        "y": "D8Y3fNNGTpY8eIskKmo1n5JwqEWqAU8aPNdOMmbLbNc",
-        "kid": "keys-2"
-      }
-    },
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-      "type": "JsonWebKey2020",
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:jonanderacuratio.github.io:jonandergaiax#X509-JWK2020",
+      "type": "JsonWebKey",
       "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
       "publicKeyJwk": {
         "kty": "RSA",
@@ -39,24 +16,11 @@
         "e": "AQAB",
         "kid": "X509-JWK2020",
         "alg": "PS256",
-        "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
+        "x5u": "https://jonanderacuratio.github.io/jonandergaiax/.well-known/x509CertificateChain.pem"
       }
     }
   ],
-  "authentication": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
   "assertionMethod": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
-  "service": [
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
-      "type": "CredentialService",
-      "serviceEndpoint": "http://100.119.180.74:7081/api/credentials/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
-    }
+    "did:web:jonanderacuratio.github.io:jonandergaiax#X509-JWK2020"
   ]
 }
