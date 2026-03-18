@@ -18,6 +18,18 @@
         "alg": "PS256",
         "x5u": "https://jonanderacuratio.github.io/jonandergaiax/.well-known/x509CertificateChain.pem"
       }
+    },
+    {
+      "id": "did:web:jonanderacuratio.github.io:jonandergaiax#keys-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:jonanderacuratio.github.io:jonandergaiax",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "yL9f-9auEhlrjx6tKqK057O-bL-7DYpuqGiiR4c-Jqo",
+        "y": "GsvxLHfh6HDJTQgLPv5owxjPbSoWGCaBEXpeSz5sMQ4",
+        "alg": "ES256"
+      }
     }
   ],
   "assertionMethod": [
