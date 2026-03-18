@@ -8,7 +8,7 @@
     {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
       "id": "did:web:jonanderacuratio.github.io:jonandergaiax#X509-JWK2020",
-      "type": "JsonWebKey",
+      "type": "JsonWebKey2020",
       "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
       "publicKeyJwk": {
         "kty": "RSA",
